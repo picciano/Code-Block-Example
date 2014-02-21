@@ -15,8 +15,8 @@
     NSDate *now = [NSDate date];
     
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setTimeStyle:NSDateFormatterNoStyle];
-    [dateFormatter setDateStyle:NSDateFormatterLongStyle];
+    [dateFormatter setTimeStyle:NSDateFormatterLongStyle];
+    [dateFormatter setDateStyle:NSDateFormatterNoStyle];
     
     NSString *message = [dateFormatter stringFromDate:now];
     NSError *error = nil;
