@@ -19,6 +19,9 @@
 		E423F4E418B8104400678A19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E423F4CC18B8104400678A19 /* UIKit.framework */; };
 		E423F4EC18B8104400678A19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E423F4EA18B8104400678A19 /* InfoPlist.strings */; };
 		E423F4EE18B8104400678A19 /* Block_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E423F4ED18B8104400678A19 /* Block_ExampleTests.m */; };
+		E423F4FA18B8107D00678A19 /* BEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E423F4F818B8107D00678A19 /* BEViewController.m */; };
+		E423F4FB18B8107D00678A19 /* BEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E423F4F918B8107D00678A19 /* BEViewController.xib */; };
+		E423F4FE18B8189100678A19 /* BEExampleService.m in Sources */ = {isa = PBXBuildFile; fileRef = E423F4FD18B8189100678A19 /* BEExampleService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		E423F4E918B8104400678A19 /* Block ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Block ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		E423F4EB18B8104400678A19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E423F4ED18B8104400678A19 /* Block_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Block_ExampleTests.m; sourceTree = "<group>"; };
+		E423F4F718B8107D00678A19 /* BEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEViewController.h; sourceTree = "<group>"; };
+		E423F4F818B8107D00678A19 /* BEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEViewController.m; sourceTree = "<group>"; };
+		E423F4F918B8107D00678A19 /* BEViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BEViewController.xib; sourceTree = "<group>"; };
+		E423F4FC18B8189100678A19 /* BEExampleService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEExampleService.h; sourceTree = "<group>"; };
+		E423F4FD18B8189100678A19 /* BEExampleService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEExampleService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,11 @@
 			children = (
 				E423F4D718B8104400678A19 /* BEAppDelegate.h */,
 				E423F4D818B8104400678A19 /* BEAppDelegate.m */,
+				E423F4F718B8107D00678A19 /* BEViewController.h */,
+				E423F4F818B8107D00678A19 /* BEViewController.m */,
+				E423F4F918B8107D00678A19 /* BEViewController.xib */,
+				E423F4FC18B8189100678A19 /* BEExampleService.h */,
+				E423F4FD18B8189100678A19 /* BEExampleService.m */,
 				E423F4DA18B8104400678A19 /* Images.xcassets */,
 				E423F4CF18B8104400678A19 /* Supporting Files */,
 			);
@@ -221,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E423F4D318B8104400678A19 /* InfoPlist.strings in Resources */,
+				E423F4FB18B8107D00678A19 /* BEViewController.xib in Resources */,
 				E423F4DB18B8104400678A19 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +254,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E423F4FA18B8107D00678A19 /* BEViewController.m in Sources */,
+				E423F4FE18B8189100678A19 /* BEExampleService.m in Sources */,
 				E423F4D518B8104400678A19 /* main.m in Sources */,
 				E423F4D918B8104400678A19 /* BEAppDelegate.m in Sources */,
 			);
